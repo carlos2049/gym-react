@@ -4,7 +4,6 @@ import {
   TextField,
   makeStyles,
   Grid,
-  Card,
   FormControl,
   Button
 } from '@material-ui/core';
@@ -55,12 +54,12 @@ const LoginCmt = () => {
     e.target.reset();
   };
 
-  const envio = (e) => {
-    e.preventDefault();
-    console.log(`
-    rut : ${datos.nombre}
-    password: ${datos.password} `);
-  };
+  // const envio = (e) => {
+  //   e.preventDefault();
+  //   console.log(`
+  //   rut : ${datos.nombre}
+  //   password: ${datos.password} `);
+  // };
   const titulos = {
     titulo: 'USER LOGIN',
     rut: 'rut',
